@@ -31,9 +31,10 @@ omarchy restart shell
 | `manifest.json` | `bar-widget` contract |
 | `BarWidget.qml` | Label on the bar |
 | `Panel.qml` | Dropdown |
-| `Cast.js` | Coin / yarrow odds, King Wen table, judgments, line texts |
+| `Cast.js` | Coin / yarrow odds and King Wen lookup |
+| `Wen1.js`–`Wen4.js` | Names, judgments, and line texts (64 hexagrams) |
 
-Edit names, judgments, and line texts in `Cast.js` to use your own translation. After a QML change run `omarchy restart shell` (Quattro caches bar-widget QML).
+Edit the `Wen*.js` tables to use your own translation. After a QML change run `omarchy restart shell` (Quattro caches bar-widget QML).
 
 ## License
 
