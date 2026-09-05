@@ -39,3 +39,10 @@ Edit the `Wen*.js` tables to use your own translation. After a QML change run `o
 ## License
 
 MIT
+
+## Remove
+
+```sh
+omarchy bar remove solfredag.changing-lines
+omarchy plugin remove solfredag.changing-lines
+```
