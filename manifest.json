@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "solfredag.changing-lines",
+  "name": "Changing Lines",
+  "version": "1.0.0",
+  "author": "solfredag",
+  "license": "MIT",
+  "description": "Bar widget that casts an I Ching hexagram and the relating figure from its changing lines.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "I Ching",
+    "category": "Utility",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
